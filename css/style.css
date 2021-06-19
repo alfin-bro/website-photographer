@@ -799,9 +799,12 @@ footer .copyright span {
 
   .testimonial .container .wrapper-testimonial {
     flex-direction: column;
+    justify-content: center;
   }
   .testimonial .container .wrapper-testimonial .testimonial-box {
     padding: 14px 0;
+    width: 90%;
+    margin: 0;
   }
 
   .contact .container .content-contactUs {
