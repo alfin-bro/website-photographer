@@ -145,9 +145,9 @@ header nav .menu-toggle {
   .wrapper-testimonial
   .testimonial-box
   .content-testimonial
-  p{
-      font-style: italic;
-  }
+  p {
+  font-style: italic;
+}
 /* testimonial style */
 
 .banner::before {
@@ -795,6 +795,13 @@ footer .copyright span {
   }
   .offer .container .img-content .text-content .box img {
     width: 20%;
+  }
+
+  .testimonial .container .wrapper-testimonial {
+    flex-direction: column;
+  }
+  .testimonial .container .wrapper-testimonial .testimonial-box {
+    padding: 14px 0;
   }
 
   .contact .container .content-contactUs {
